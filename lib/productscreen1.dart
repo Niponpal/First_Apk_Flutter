@@ -76,7 +76,7 @@ class _ProductscreenViewState extends State<ProductscreenView> {
                         color: Colors.red,
                         borderRadius: BorderRadius.circular(12),
                         image: const DecorationImage(
-                          image: AssetImage("assets/images1.png"),
+                          image: AssetImage("assets/images3.png"),
                           fit: BoxFit.fill,
                         ),
                       ),
