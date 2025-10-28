@@ -76,7 +76,6 @@ class _Productscreen2ViewState extends State<Productscreen2View> {
               height: 185,
               width: MediaQuery.sizeOf(context).width - 10,
               decoration: BoxDecoration(
-                color: Colors.red,
                 image: DecorationImage(
                   image: AssetImage("assets/images3.png"),
                   fit: BoxFit.fill,

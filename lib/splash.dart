@@ -13,7 +13,7 @@ class _SplashScreenState extends State<SplashScreen> {
 
   autoNavigate() async {
 
-    await Future.delayed(Duration(seconds: 3));
+    await Future.delayed(Duration(seconds: 2));
     Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => LoginscreenView()));
   }
 
@@ -30,9 +30,22 @@ class _SplashScreenState extends State<SplashScreen> {
     return Scaffold(
 
         backgroundColor: Colors.white,
-        body: Padding(
-          padding: const EdgeInsets.all(8.0),
-          child: Center(child: Image.asset("assets/CompanyName.png")),)
+        body: Center(
+          child: Padding(
+            padding: const EdgeInsets.all(8.0),
+            child: Container(
+              width: 250,
+              height: 250,
+              decoration: BoxDecoration(
+                shape: BoxShape.circle,
+                image: DecorationImage(image: AssetImage("assets/CompanyName.png"),
+                fit:BoxFit.fill,
+                ),
+              ),
+            ),
+
+          ),
+        ),
     );
   }
 }

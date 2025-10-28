@@ -36,7 +36,6 @@ class _HomescreenViewState extends State<HomescreenView> {
           BottomNavigationBarItem(icon: Icon(Icons.person), label: "Profile"),
         ],
       ),
-
     );
   }
 }
