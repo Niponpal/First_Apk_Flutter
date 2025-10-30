@@ -1,4 +1,5 @@
 import 'package:assigment/loginscreen.dart';
+import 'package:assigment/masslogin.dart';
 import 'package:assigment/productScreen2.dart';
 import 'package:assigment/productscreen1.dart';
 import 'package:assigment/profile.dart';
@@ -11,7 +12,7 @@ void main (){
   runApp(
     MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: SplashScreen(),
+      home: MassloginScreen(),
 
     )
   );

@@ -37,8 +37,7 @@ class _SplashScreenState extends State<SplashScreen> {
               width: 250,
               height: 250,
               decoration: BoxDecoration(
-                shape: BoxShape.circle,
-                image: DecorationImage(image: AssetImage("assets/CompanyName.png"),
+                image: DecorationImage(image: AssetImage("assets/img.png"),
                 fit:BoxFit.fill,
                 ),
               ),
