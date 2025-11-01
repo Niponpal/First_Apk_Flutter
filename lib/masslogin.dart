@@ -184,7 +184,7 @@ class _MassloginScreenState extends State<MassloginScreen> {
                         ),
                         child: InkWell(
                           onTap: () {
-                            // TODO: Add Google login action
+                            // TODO: Add Google login
                           },
                           borderRadius: BorderRadius.circular(20),
                           child: Padding(
